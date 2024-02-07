@@ -1,0 +1,26 @@
+{
+  "Header": {
+    "navigation": {
+      "about": "O firmie",
+      "stages": "Jak pracujemy",
+      "search": "Szukaj według VIN"
+    }
+  },
+  "Hero": {
+    "title": "USUNIĘCIE HISTORII TWOJEGO SAMOCHODU Z ZASOBÓW INTERNETOWYCH",
+    "subtitle": "Kompleksowe usuwanie zdjęć i informacji o samochodzie z wyszukiwarek i stron internetowych.",
+    "experiance": {
+      "title": "Naprawdę",
+      "desc": "Mamy doświadczenie. Większość zamówień jest realizowana tak szybko, jak to możliwe."
+    },
+    "secure": {
+      "title": "Bezpiecznie",
+      "desc": " Legalnie usuniemy historię numeru VIN i zdjęć samochodu ze stron internetowych i sekcji wyników wyszukiwania Google „Grafika”."
+    },
+    "garanty": {
+      "title": "Na zawsze.",
+      "desc": "Trwałe usunięcie informacji o witrynie."
+    },
+    "button": "Uzyskaj bezpłatną konsultację"
+  }
+}

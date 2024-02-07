@@ -1,0 +1,26 @@
+{
+  "Header": {
+    "navigation": {
+      "about": "About us",
+      "stages": "How we work",
+      "search": "Search by VIN"
+    }
+  },
+  "Hero": {
+    "title": "REMOVING THE HISTORY OF YOUR CAR FROM INTERNET RESOURCES",
+    "subtitle": "Comprehensive removal of car history and photos from search engines and sites.",
+    "experiance": {
+      "title": "Really",
+      "desc": "We have experience. Most orders are completed as soon as possible."
+    },
+    "secure": {
+      "title": "Safely",
+      "desc": "We will legally clear VIN history and car photos from websites and Google search in the \"images\" section."
+    },
+    "garanty": {
+      "title": "Forever",
+      "desc": "Permanent vin history deletion from site."
+    },
+    "button": "Get a free consultation"
+  }
+}
