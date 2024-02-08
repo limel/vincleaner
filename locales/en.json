@@ -22,5 +22,58 @@
       "desc": "Permanent vin history deletion from site."
     },
     "button": "Get a free consultation"
+  },
+  "About": {
+    "title": "Welcome to VIN CLEANER",
+    "description": "We help owners of vehicles purchased at Copart, IAAI, Manheim and Impact Auto insurance auctions remove vehicle history from online resources that affects reputation, sales and other aspects of life. Protecting your personal data is our top priority!",
+    "title2": "How to delete car history legally?",
+    "description2":"If you are an American car owner and want to remove car history and delete car photos from Google, the first step is to contact a trusted company that provides a vin cleaning service. Service VINCLEANER has been clearing car history by VIN code from the Internet for more than 4 years. In our work, we use only legal methods! Extensive experience in the field of VIN removal helps us to solve the most difficult tasks and remove complex sites.",
+    "title3": "How to remove vin number from google?",
+    "description3": "Using the VIN CLEANER service, you can analyze which sites have photos of your car, VIN code, mileage information, lot price, etc. Our site has an automatic calculator for calculating the cost and terms of hide vin process. We can delete vin history from all sites at once or selectively at your request.",
+    "description4": "We guarantee confidentiality. Let us help you get your car started from scratch."
+  },
+  "Stages": {
+    "title": "STAGES OF WORK",
+    "register": "Register on the site or leave a request",
+    "managers": "Our manager will contact you and clarify the details",
+    "payment": "After full payment, we fulfill your order",
+    "result": "After 100% completion of the order, you will receive a report"
+  },
+  "CTA": {
+    "title": "LEAVE A REQUEST AND WE WILL PROTECT THE PRIVACY OF YOUR CAR",
+    "button": "Leave a request"
+  },
+  "Footer": {
+    "information": {
+      "title": "Информация",
+      "catalog": {
+      },
+      "faq": {
+        "title": "Вопрос ответ",
+        "url": "#"
+      },
+      "about": {
+        "title": "О компании",
+        "url":"#about"
+      },
+      "policy": {
+        "title": "Политика конфиденциальности",
+        "url": "#"
+      },
+      "terms": {
+        "title": "Договор оферты",
+        "url": "#"
+      }
+    },
+    "contacts": {
+      "title": "Связаться с нами",
+      "socialCaption": "Мы в мессенджерах",
+      "button": "Написать нам"
+    },
+    "payments": {
+      "title": "Способы оплаты",
+      "cardsCaption": "Кредитные карты",
+      "cryptoCaption": "Криптовалюты"
+    }
   }
 }

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Montserrat } from "next/font/google";
-import { Header } from "components/Layout";
+import { Header, Footer } from "components/Layout";
 import "app/globals.scss";
 
 const inter = Inter({
@@ -33,7 +33,7 @@ export default function RootLayout({
       <body className={`${inter.variable} ${montserrat.variable} font-primary font-normal`}>
         <Header />
         {children}
-        <footer id="footer"></footer>
+        <Footer />
       </body>
     </html>
   );

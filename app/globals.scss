@@ -15,6 +15,17 @@ body {
   color: theme('colors.black');
 }
 
+h2:not(.hero-card__title) {
+  @apply text-h2 font-bold;
+}
+
+h3 {
+  @apply text-sm font-semibold;
+}
+
+p {
+  @apply text-xs;
+}
 
 .navigation-menu li a,
 .navigation-menu li {
@@ -22,5 +33,32 @@ body {
 }
 
 .button {
-  @apply bg-accent text-white font-bold py-4 px-7 text-xs flex items-center;
+  @apply bg-accent transition-all ease-in-out text-white font-bold py-4 px-7 text-sm flex items-center;
+
+  &:hover {
+    @apply brightness-125;
+  }
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  @apply text-black;
+}
+
+.stages-list {
+  counter-reset: stages;
+
+
+  li:hover {
+    &:after {
+      @apply text-white;
+    }
+  }
+
+  li:after {
+    content: counter(stages)".";
+    counter-increment: stages;
+    transition: inherit;
+    @apply font-bold text-3xl text-accent absolute left-6;
+  }
 }

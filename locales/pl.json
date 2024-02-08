@@ -22,5 +22,58 @@
       "desc": "Trwałe usunięcie informacji o witrynie."
     },
     "button": "Uzyskaj bezpłatną konsultację"
+  },
+  "About": {
+    "title": "Witamy w VIN CLEANER",
+    "description": "Pomagamy właścicielom pojazdów zakupionych na aukcjach ubezpieczeniowych Copart, IAAI, Manheim i Impact Auto usunąć historię pojazdu z zasobów internetowych, która wpływa na reputację, sprzedaż i inne aspekty życia. Ochrona Twoich danych osobowych to nasz najwyższy priorytet!",
+    "title2": "Jak legalnie usunąć historię samochodu z USA?",
+    "description2":"Jeśli jesteś właścicielem amerykańskim samochodu i chcesz wyczyścić historię samochodu i usunąć zdjęcia z Google, pierwszym krokiem jest skontaktowanie się z zaufaną firmą, która świadczy usługę czyszczenia historii VIN. Serwis VINCLEANER od ponad 4 lat usuwa historię samochodu po kodu VIN z Internetu. W naszej pracy stosujemy wyłącznie legalne metody! Bogate doświadczenie w zakresie przeprowadzek internetowych pomaga nam rozwiązywać najtrudniejsze zadania i usuwać najbardziej skomplikowane strony.",
+    "title3": "Jak usunąć historię Vin?",
+    "description3": "Korzystając z usługi VIN CLEANER, możesz przeanalizować, które witryny zawierają zdjęcia Twojego samochodu, kod VIN, informacje o przebiegu, cenie partii itp. Nasza strona posiada automatyczny kalkulator do obliczania kosztów i warunków procesu clean vin usa. Możemy usunąć historię vin ze wszystkich witryn jednocześnie lub wybiórczo na Twoje życzenie.",
+    "description4": "Gwarantujemy poufność. Pomożemy Ci rozpocząć życie Twojego samochodu od podstaw."
+  },
+  "Stages": {
+    "title": "ETAPY PRACY",
+    "register": "Zarejestruj się na stronie lub zostaw prośbę",
+    "managers": "Nasz manager skontaktuje się z Tobą i doprecyzuje szczegóły",
+    "payment": "Po pełnej płatności zrealizujemy Twoje zamówienie",
+    "result": "Po 100% realizacji zamówienia otrzymasz raport"
+  },
+  "CTA": {
+    "title": "ZOSTAW PROŚBĘ, A BĘDZIEMY CHRONIĆ PRYWATNOŚĆ TWOJEGO SAMOCHODU",
+    "button": "Prześlij swoją aplikację"
+  },
+  "Footer": {
+    "information": {
+      "title": "Информация",
+      "catalog": {
+      },
+      "faq": {
+        "title": "Вопрос ответ",
+        "url": "#"
+      },
+      "about": {
+        "title": "О компании",
+        "url":"#about"
+      },
+      "policy": {
+        "title": "Политика конфиденциальности",
+        "url": "#"
+      },
+      "terms": {
+        "title": "Договор оферты",
+        "url": "#"
+      }
+    },
+    "contacts": {
+      "title": "Связаться с нами",
+      "socialCaption": "Мы в мессенджерах",
+      "button": "Написать нам"
+    },
+    "payments": {
+      "title": "Способы оплаты",
+      "cardsCaption": "Кредитные карты",
+      "cryptoCaption": "Криптовалюты"
+    }
   }
 }

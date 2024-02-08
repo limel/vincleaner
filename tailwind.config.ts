@@ -9,15 +9,9 @@ const config: Config = {
   theme: {
     container: {
       center: true,
-
       padding: {
         DEFAULT: "1.875rem",
       },
-    },
-    colors: {
-      black: "#000",
-      white: "#fff",
-      accent: "#254C10",
     },
     fontFamily: {
       primary: ["var(--montserrat)", "sans-serif"],
@@ -33,6 +27,14 @@ const config: Config = {
         screens: {
           "2xl": "1440px",
         },
+      },
+      colors: {
+        black: "#000",
+        white: "#fff",
+        accent: "#254C10",
+      },
+      animation: {
+        "ping-slow": "ping 2s cubic-bezier(0, 0, 0.2, 1) infinite",
       },
     },
   },
