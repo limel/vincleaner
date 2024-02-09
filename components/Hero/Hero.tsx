@@ -1,16 +1,20 @@
+"use client";
+import { useState } from "react";
 import { useTranslations } from "next-intl";
+import { Modal } from "components/Modal";
 import Image from "next/image";
 import Link from "next/link";
 
 function Hero() {
   const t = useTranslations("Hero");
   const cards = ["experiance", "secure", "garanty"] as const;
+  const [showModal, setShowModal] = useState(false);
 
   return (
     <section id="hero" className="mb-12 mt-12 lg:mb-24 xl:mt-48 md:mt-24 ">
       <div className="container relative">
         <h1 className="text-h1 font-bold uppercase relative pb-4 lg:mb-4 max-w-[895px] after:w-[500px] after:h-[2px] after:bg-accent after:absolute after:bottom-0 after:left-0">
-          {t("title")}
+          {t("title") as string}
         </h1>
         <p className="max-w-[505px] text-xl font-semibold mb-11">{t("subtitle")}</p>
         <Image
@@ -30,14 +34,19 @@ function Hero() {
                 <use href={`/sprite.svg#${card}`} />
               </svg>
               <h2 className="font-bold pb-5 boder-2 border-b-2 border-black border-solid hero-card__title">
-                {t(`${card}.title`)}
+                {t(`${card}.title`) as string}
               </h2>
               <p className="pt-5">{t(`${card}.desc`)}</p>
             </li>
           ))}
         </ul>
         <div className="xl:max-w-[758px] flex items-center">
-          <button className="button rounded group/btn md:mr-12">
+          <button
+            className="button rounded group/btn md:mr-12"
+            onClick={() => {
+              setShowModal(true);
+            }}
+          >
             {t("button")}
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -88,6 +97,9 @@ function Hero() {
               <use href="/sprite.svg#phone" />
             </svg>
           </button>
+          <Modal selector="modal" show={showModal}>
+            asd
+          </Modal>
         </div>
       </div>
     </section>

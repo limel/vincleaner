@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Montserrat } from "next/font/google";
 import { Header, Footer } from "components/Layout";
+import { NextIntlClientProvider, useMessages } from "next-intl";
 import "app/globals.scss";
 
 const inter = Inter({
@@ -28,12 +29,16 @@ export default function RootLayout({
   children: React.ReactNode;
   params: { locale: string };
 }>) {
+  const messages = useMessages();
   return (
-    <html lang={locale}>
-      <body className={`${inter.variable} ${montserrat.variable} font-primary font-normal`}>
-        <Header />
-        {children}
-        <Footer />
+    <html lang={locale} className={`${inter.variable} ${montserrat.variable}`}>
+      <body className="font-primary font-normal">
+        <NextIntlClientProvider locale={locale} messages={messages}>
+          <Header />
+          {children}
+          <Footer />
+          <div id="modal"></div>
+        </NextIntlClientProvider>
       </body>
     </html>
   );

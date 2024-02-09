@@ -1,7 +1,7 @@
 "use client";
 import { useLocale } from "next-intl";
 import clsx from "clsx";
-import { useState, useEffect, useRef, ReactEventHandler } from "react";
+import { useState, useEffect, useRef } from "react";
 import { locales } from "i18n";
 import Link from "next/link";
 

@@ -62,3 +62,7 @@ p {
     @apply font-bold text-3xl text-accent absolute left-6;
   }
 }
+
+.modal-wrapper {
+  @apply fixed inset-0 bg-white bg-opacity-50 flex shadow-sm justify-center items-center;
+}

@@ -1,5 +1,5 @@
 import { useTranslations } from "next-intl";
-import { Rating } from "components/Rating";
+// import { Rating } from "components/Rating";
 import Link from "next/link";
 import Image from "next/image";
 
