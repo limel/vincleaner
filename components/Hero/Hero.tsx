@@ -46,7 +46,7 @@ function Hero() {
         </ul>
         <div className="xl:max-w-[758px] flex items-center">
           <button
-            className="button rounded group/btn lg:mr-12 mb-6 lg:ml-0 mx-auto"
+            className="button rounded group/btn lg:mr-12 mb-6 lg:mb-0 lg:ml-0 mx-auto"
             onClick={() => {
               setOpenModal(true);
               document.body.style.overflow = "hidden";
