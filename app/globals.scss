@@ -8,15 +8,17 @@
 
 html {
   scroll-behavior: smooth;
+  scrollbar-gutter: stable;
 }
 
 body {
   margin: 0;
   color: theme('colors.black');
+  overflow-y: scroll;
 }
 
 h2:not(.hero-card__title) {
-  @apply text-h2 font-bold;
+  @apply text-xl lg:text-h2 font-bold;
 }
 
 h3 {
@@ -33,7 +35,7 @@ p {
 }
 
 .button {
-  @apply bg-accent transition-all ease-in-out text-white font-bold py-4 px-7 text-sm flex items-center;
+  @apply bg-accent transition-all ease-in-out text-white font-bold px-2 py-4 lg:py-4 lg:px-7 text-xs lg:text-sm flex items-center;
 
   &:hover {
     @apply brightness-125;
@@ -64,5 +66,64 @@ p {
 }
 
 .modal-wrapper {
-  @apply fixed inset-0 bg-white bg-opacity-50 flex shadow-sm justify-center items-center;
+  @apply fixed inset-0 transition-opacity ease-in-out opacity-0 bg-white-500 bg-opacity-50 z-10 backdrop-blur flex shadow-sm justify-center items-center;
+
+  &.active {
+    @apply opacity-100;
+  }
+}
+
+.overlay {
+  @extend .modal-wrapper;
+
+}
+
+.modal-body {
+  @apply bg-white py-6 px-6 lg:px-9 lg:py-9 relative lg:max-w-[790px] lg:min-w-[790px] w-[80%] lg:w-full;
+}
+
+.decor-line {
+  @apply after:h-1 after:absolute after:left-0 after:bottom-0 after:bg-accent before:h-[2px] before:absolute before:left-0 before:bottom-[2px] before:bg-accent
+}
+
+
+.input {
+  @apply py-2 px-5 border-accent border-[2px] border-solid w-full text-sm outline-none mb-8;
+}
+
+.react-international-phone-input-container {
+  button {
+    border: none;
+  }
+}
+
+.react-international-phone-input {
+  border: none !important;
+  width: 100% !important;
+  height: 20px !important;
+  @apply text-sm;
+}
+
+.react-international-phone-country-selector-button {
+  height: 20px !important;
+}
+
+.radio {
+  @apply flex items-center;
+  &__mark{
+    @apply after:w-[10px] after:h-[10px] after:bg-accent after:block after:rounded-full rounded-full border-[2px] border-accent border-solid w-4 h-4 flex items-center justify-center after:opacity-0 transition-opacity ease-in-out cursor-pointer;
+  }
+
+  input:checked ~ .radio__mark:after {
+    opacity: 1;
+  }
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  display: none !important;
+
+  @media (min-width: 768px) {
+    display: flex !important;
+  }
 }

@@ -43,6 +43,21 @@
     "title": "ZOSTAW PROŚBĘ, A BĘDZIEMY CHRONIĆ PRYWATNOŚĆ TWOJEGO SAMOCHODU",
     "button": "Prześlij swoją aplikację"
   },
+  "RequestForm": {
+    "title": "Написать нам",
+    "namePlaceholder": "Введите ваше имя",
+    "messangersCaption": "Какой мессенджер вам удобен для связи?",
+    "messagePlaceholder": "Введите ваше сообщение",
+    "button": "Отправить заявку"
+  },
+  "CallbackForm": {
+    "title": "ЗАЯВКА НА УДАЛЕНИЕ ИСТОРИИ АВТО",
+    "namePlaceholder": "Введите ваше имя",
+    "messangersCaption": "Какой мессенджер вам удобен для связи?",
+    "vinPlaceholder": "Введите VIN номер авто",
+    "messagePlaceholder": "Введите ваше сообщение",
+    "button": "Отправить заявку"
+  },
   "Footer": {
     "information": {
       "title": "Информация",

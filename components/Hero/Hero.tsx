@@ -2,33 +2,37 @@
 import { useState } from "react";
 import { useTranslations } from "next-intl";
 import { Modal } from "components/Modal";
+import { CallbackForm } from "components/CallbackForm";
 import Image from "next/image";
 import Link from "next/link";
 
 function Hero() {
   const t = useTranslations("Hero");
+  const tCallbackForm = useTranslations("CallbackForm");
   const cards = ["experiance", "secure", "garanty"] as const;
-  const [showModal, setShowModal] = useState(false);
+  const [openModal, setOpenModal] = useState(false);
 
   return (
     <section id="hero" className="mb-12 mt-12 lg:mb-24 xl:mt-48 md:mt-24 ">
-      <div className="container relative">
-        <h1 className="text-h1 font-bold uppercase relative pb-4 lg:mb-4 max-w-[895px] after:w-[500px] after:h-[2px] after:bg-accent after:absolute after:bottom-0 after:left-0">
-          {t("title") as string}
-        </h1>
-        <p className="max-w-[505px] text-xl font-semibold mb-11">{t("subtitle")}</p>
-        <Image
-          className="top-32 right-20 absolute z-[-1]"
-          width={489}
-          height={296}
-          src={"/hero-desktop.png"}
-          alt="hero img"
-        />
-        <ul className="grid grid-cols-3 gap-4 md:max-w-[758px] items-stretch md:mb-8 lg:mb-16">
+      <div className="container relative flex flex-col">
+        <div className="mb-8 lg:mb-11  flex flex-col">
+          <h1 className="text-xl lg:text-h1 mb-2 font-bold uppercase relative pb-4 lg:mb-4 max-w-[895px] lg:after:w-[500px] lg:after:h-[2px] lg:after:bg-accent lg:after:absolute lg:after:bottom-0 lg:after:left-0">
+            {t("title") as string}
+          </h1>
+          <p className="order-last lg:order-none max-w-[505px] text-xl font-semibold ">{t("subtitle")}</p>
+          <Image
+            className="lg:top-32 lg:right-20 lg:absolute z-[-1] mb-2 lg:mb-0 mx-auto"
+            width={489}
+            height={296}
+            src={"/hero-desktop.png"}
+            alt="hero img"
+          />
+        </div>
+        <ul className="flex order-last lg:order-none flex-col items-center lg:grid w-full lg:grid-cols-3 gap-4 lg:max-w-[758px] lg:items-stretch md:mb-8 lg:mb-16">
           {cards.map((card) => (
             <li
               key={card}
-              className="py-2 px-2 bg-white self-stretch text-center text-xs border-2 border-solid border-black rounded-xl"
+              className="max-w-[250px] mx-auto lg:max-w-none py-2 px-2 bg-white self-stretch text-center text-xs border-2 border-solid border-black rounded-xl"
             >
               <svg className="w-8 h-8 mx-auto mb-1">
                 <use href={`/sprite.svg#${card}`} />
@@ -42,9 +46,10 @@ function Hero() {
         </ul>
         <div className="xl:max-w-[758px] flex items-center">
           <button
-            className="button rounded group/btn md:mr-12"
+            className="button rounded group/btn lg:mr-12 mb-6 lg:ml-0 mx-auto"
             onClick={() => {
-              setShowModal(true);
+              setOpenModal(true);
+              document.body.style.overflow = "hidden";
             }}
           >
             {t("button")}
@@ -54,7 +59,7 @@ function Hero() {
               height="12"
               fill="currentColor"
               viewBox="0 0 16 16"
-              className="ml-4 group-hover/btn:translate-x-1 transition-transform duration-300 ease-in-out"
+              className="ml-2 lg:ml-4 group-hover/btn:translate-x-1 transition-transform duration-300 ease-in-out"
             >
               <path
                 fillRule="evenodd"
@@ -62,7 +67,7 @@ function Hero() {
               />
             </svg>
           </button>
-          <ul className="flex items-center gap-8 mr-24">
+          <ul className="hidden lg:flex items-center gap-8 mr-24">
             <li>
               <Link href="#">
                 <svg className="w-5 h-5">
@@ -92,16 +97,16 @@ function Hero() {
               </Link>
             </li>
           </ul>
-          <button className="after:absolute after:w-12 after:h-12 after:rounded-full after:border-[1px] after:border-black after:border-solid relative flex items-center justify-center after:animate-ping-slow">
+          <button className="hidden after:absolute after:w-12 after:h-12 after:rounded-full after:border-[1px] after:border-black after:border-solid relative lg:flex items-center justify-center after:animate-ping-slow">
             <svg className="w-10 h-10">
               <use href="/sprite.svg#phone" />
             </svg>
           </button>
-          <Modal selector="modal" show={showModal}>
-            asd
-          </Modal>
         </div>
       </div>
+      <Modal selector="modal" openModal={openModal} setOpenModal={setOpenModal}>
+        <CallbackForm t={tCallbackForm} vin={true} />
+      </Modal>
     </section>
   );
 }

@@ -31,6 +31,7 @@ const config: Config = {
       colors: {
         black: "#000",
         white: "#fff",
+        "white-500": "rgba(255, 255, 255, 0.5);",
         accent: "#254C10",
       },
       animation: {

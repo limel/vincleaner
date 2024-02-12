@@ -1,12 +1,25 @@
+"use client";
 import { useTranslations } from "next-intl";
+import { useState } from "react";
+import { Modal } from "components/Modal";
+import { CallbackForm } from "components/CallbackForm";
 
 function CTA() {
+  const [openModal, setOpenModal] = useState(false);
+  const tCallbackForm = useTranslations("RequestForm");
   const t = useTranslations("CTA");
+
   return (
-    <section className="py-14 my-32">
+    <section className="py-6 my-6 lg:py-14 lg:my-32">
       <div className="container">
         <h2 className="uppercase text-center">{t("title")}</h2>
-        <button className="button rounded group/btn mx-auto mt-7">
+        <button
+          className="button rounded group/btn mx-auto mt-7"
+          onClick={() => {
+            setOpenModal(true);
+            document.body.style.overflow = "hidden";
+          }}
+        >
           {t("button")}
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -22,6 +35,10 @@ function CTA() {
             />
           </svg>
         </button>
+
+        <Modal selector="modal" openModal={openModal} setOpenModal={setOpenModal}>
+          <CallbackForm t={tCallbackForm} />
+        </Modal>
       </div>
     </section>
   );

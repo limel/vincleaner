@@ -11,8 +11,8 @@ function Footer() {
 
   return (
     <footer className="py-5">
-      <div className="container flex items-start justify-between mb-16">
-        <div>
+      <div className="container md:flex-wrap flex items-strength lg:items-start lg:justify-between mb-16  gap-6 lg:gap-0 justify-center flex-col md:flex-row ">
+        <div className="pl-12 lg:pl-0">
           <span className="text-sm font-bold mb-5 block">{t("information.title")}</span>
           <ul className="flex flex-col gap-3">
             {infoLinks.map((page) => (
@@ -22,7 +22,7 @@ function Footer() {
             ))}
           </ul>
         </div>
-        <div>
+        <div className="pl-12 lg:pl-0">
           <span className="text-sm font-bold mb-5 block">{t("contacts.title")}</span>
           <p className="text-sm font-semibold mb-3">+38 (063) 642-56-22</p>
           <p className="text-sm font-semibold mb-3">vincleaner.help@gmail.com</p>
@@ -64,7 +64,7 @@ function Footer() {
             {t("contacts.button")}
           </button>
         </div>
-        <div>
+        <div className="pl-12 lg:pl-0">
           <span className="text-sm font-bold mb-5 block">{t("payments.title")}</span>
           <span className="text-sm mb-5 block">{t("payments.cardsCaption")}</span>
           <ul className="flex items-center gap-3">
@@ -108,13 +108,13 @@ function Footer() {
             </li>
           </ul>
         </div>
-        <div>
+        <div className="pl-12 lg:pl-0">
           <Image src="/secure.png" width={128} height={125} alt="secure 100%" />
         </div>
         {/* <Rating /> */}
       </div>
-      <div className="container py-4 border-t-[1px] border-black-700 border-solid flex items-center justify-between">
-        <ul className="flex items-center gap-3">
+      <div className="container py-4 border-t-[1px] flex-col lg:flex-row border-black-700 border-solid flex lg:items-center items-start justify-between">
+        <ul className="flex items-center gap-3 mb-2 lg:mb-0">
           <li className="flex items-center gap-2">
             <svg className="w-6 h-6">
               <use href="/sprite.svg#file" />
