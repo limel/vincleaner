@@ -21,7 +21,7 @@ function Hero() {
           </h1>
           <p className="order-last lg:order-none max-w-[505px] text-xl font-semibold ">{t("subtitle")}</p>
           <Image
-            className="lg:top-32 lg:right-20 lg:absolute z-[-1] mb-2 lg:mb-0 mx-auto"
+            className="lg:top-32 lg:right-20 lg:absolute z-[-1] mb-4 lg:mb-0 mx-auto"
             width={489}
             height={296}
             src={"/hero-desktop.png"}
@@ -97,15 +97,18 @@ function Hero() {
               </Link>
             </li>
           </ul>
-          <button className="hidden after:absolute after:w-12 after:h-12 after:rounded-full after:border-[1px] after:border-black after:border-solid relative lg:flex items-center justify-center after:animate-ping-slow">
+          <Link
+            href="tel:380980424040"
+            className="hidden after:absolute after:w-12 after:h-12 after:rounded-full after:border-[1px] after:border-black after:border-solid relative lg:flex items-center justify-center after:animate-ping-slow"
+          >
             <svg className="w-10 h-10">
               <use href="/sprite.svg#phone" />
             </svg>
-          </button>
+          </Link>
         </div>
       </div>
       <Modal selector="modal" openModal={openModal} setOpenModal={setOpenModal}>
-        <CallbackForm t={tCallbackForm} vin={true} />
+        <CallbackForm t={tCallbackForm} vin={true} setCloseModal={setOpenModal} />
       </Modal>
     </section>
   );

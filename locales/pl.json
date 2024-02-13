@@ -7,7 +7,7 @@
     }
   },
   "Hero": {
-    "title": "Usuwanie informacji o samochodzie z internetu",
+    "title": "Całkowite usunięcie historii samochodu z zasobów internetowych",
     "subtitle": "Pełne usunięcie historii samochodu i jego zdjęć z wyszukiwarek i witryn internetowych.",
     "experiance": {
       "title": "Doświadczenie",
@@ -48,7 +48,9 @@
     "namePlaceholder": "Wpisz swoje imię",
     "messangersCaption": "Wybierz wygodny dla Ciebie komunikator",
     "messagePlaceholder": "Wpisz swoją wiadomość",
-    "button": "Wyślij zgłoszenie"
+    "button": "Wyślij zgłoszenie",
+    "successMessage": "Twoje zgłoszenie zostało pomyślnie wysłane",
+    "errorMessage": "Wystąpił błąd podczas wysyłania zgłoszenia, spróbuj ponownie później"
   },
   "CallbackForm": {
     "title": "Zgłoszenie usunięcia historii samochodu",
@@ -56,7 +58,9 @@
     "messangersCaption": "Wybierz wygodny dla Ciebie komunikator",
     "vinPlaceholder": "Wpisz numer VIN samochodu",
     "messagePlaceholder": "Wpisz swoją wiadomość",
-    "button": "Wyślij zgłoszenie"
+    "button": "Wyślij zgłoszenie",
+    "successMessage": "Twoje zgłoszenie zostało pomyślnie wysłane",
+    "errorMessage": "Wystąpił błąd podczas wysyłania zgłoszenia, spróbuj ponownie później"
   },
   "Footer": {
     "information": {
@@ -72,11 +76,11 @@
       },
       "policy": {
         "title": "Polityka prywatności",
-        "url": "#"
+        "url": "/privacy"
       },
       "terms": {
         "title": "Warunki świadczenia usług",
-        "url": "#"
+        "url": "/terms"
       }
     },
     "contacts": {
@@ -103,6 +107,7 @@
     "submitSearch": "Szukaj"
   },
   "SearchResult": {
+    "totalCaption": "Zagalna: ",
     "plc": {
       "price": "od 100 $",
       "deadline": "1-3 dni"

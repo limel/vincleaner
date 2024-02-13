@@ -7,7 +7,7 @@
     }
   },
   "Hero": {
-    "title": "Removing Car Information from the Internet",
+    "title": "Complete removal of your car's history from the internet of resources",
     "subtitle": "Complete removal of car history and its photos from search engines and websites.",
     "experiance": {
       "title": "Experience",
@@ -48,7 +48,9 @@
     "namePlaceholder": "Enter your name",
     "messangersCaption": "Choose a messenger convenient for you",
     "messagePlaceholder": "Enter your message",
-    "button": "Send Request"
+    "button": "Send Request",
+    "successMessage": "Your request has been successfully sent",
+    "errorMessage": "An error occurred while sending the request, please try again later"
   },
   "CallbackForm": {
     "title": "Car History Removal Request",
@@ -56,7 +58,9 @@
     "messangersCaption": "Choose a messenger convenient for you",
     "vinPlaceholder": "Enter the car's VIN number",
     "messagePlaceholder": "Enter your message",
-    "button": "Send Request"
+    "button": "Send Request",
+    "successMessage": "Your request has been successfully sent",
+    "errorMessage": "An error occurred while sending the request, please try again later"
   },
   "Footer": {
     "information": {
@@ -72,11 +76,11 @@
       },
       "policy": {
         "title": "Privacy Policy",
-        "url": "#"
+        "url": "/privacy"
       },
       "terms": {
         "title": "Terms of Service",
-        "url": "#"
+        "url": "/terms"
       }
     },
     "contacts": {
@@ -103,6 +107,7 @@
     "submitSearch": "Search"
   },
   "SearchResult": {
+    "totalCaption": "Total: ",
     "plc": {
       "price": "from $100",
       "deadline": "1-3 days"

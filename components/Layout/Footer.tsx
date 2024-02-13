@@ -1,11 +1,18 @@
-import { useTranslations } from "next-intl";
+"use client";
+import { useLocale, useTranslations } from "next-intl";
 // import { Rating } from "components/Rating";
+import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { Modal } from "components/Modal";
+import { CallbackForm } from "components/CallbackForm";
 
 function Footer() {
+  const local = useLocale();
   const year = new Date().getFullYear();
   const t = useTranslations("Footer");
+  const tCallbackForm = useTranslations("CallbackForm");
+  const [openModal, setOpenModal] = useState(false);
 
   const infoLinks = ["information.about", "information.policy", "information.terms"] as const;
 
@@ -17,15 +24,21 @@ function Footer() {
           <ul className="flex flex-col gap-3">
             {infoLinks.map((page) => (
               <li className="text-sm" key={page}>
-                {t(`${page}.title`)}
+                <Link href={t(`${page}.url`)} target="_blank">
+                  {t(`${page}.title`)}
+                </Link>
               </li>
             ))}
           </ul>
         </div>
         <div className="pl-12 lg:pl-0">
           <span className="text-sm font-bold mb-5 block">{t("contacts.title")}</span>
-          <p className="text-sm font-semibold mb-3">+38 (063) 642-56-22</p>
-          <p className="text-sm font-semibold mb-3">vincleaner.help@gmail.com</p>
+          <Link href="tel:380980424040" className="text-sm font-semibold block mb-3">
+            +38 (098) 042-40-40
+          </Link>
+          <Link href="mailto:autocleanhistory@gmail.com" className="text-sm font-semibold block mb-3">
+            autocleanhistory@gmail.com
+          </Link>
           <span className="text-sm mb-3 block">{t("contacts.socialCaption")}</span>
           <ul className="flex items-start gap-3 mb-3">
             <li>
@@ -57,7 +70,13 @@ function Footer() {
               </Link>
             </li>
           </ul>
-          <button className="button !px-4 !py-2 !text-xs">
+          <button
+            className="button !px-4 !py-2 !text-xs"
+            onClick={() => {
+              setOpenModal(true);
+              document.body.style.overflow = "hidden";
+            }}
+          >
             <svg className="w-3 h-3 mr-3">
               <use href="/sprite.svg#chat" />
             </svg>
@@ -143,6 +162,9 @@ function Footer() {
           {t("rights")} {year}
         </span>
       </div>
+      <Modal selector="modal" openModal={openModal} setOpenModal={setOpenModal}>
+        <CallbackForm t={tCallbackForm} setCloseModal={setOpenModal} />
+      </Modal>
     </footer>
   );
 }

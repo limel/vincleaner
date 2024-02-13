@@ -37,7 +37,7 @@ function CTA() {
         </button>
 
         <Modal selector="modal" openModal={openModal} setOpenModal={setOpenModal}>
-          <CallbackForm t={tCallbackForm} />
+          <CallbackForm t={tCallbackForm} setCloseModal={setOpenModal} />
         </Modal>
       </div>
     </section>

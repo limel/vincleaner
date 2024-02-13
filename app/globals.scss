@@ -35,7 +35,7 @@ p {
 }
 
 .button {
-  @apply bg-accent transition-all ease-in-out text-white font-bold px-2 py-4 lg:py-4 lg:px-7 text-xs lg:text-sm flex items-center;
+  @apply bg-accent transition-all ease-in-out text-white font-bold px-4 py-4 lg:py-4 lg:px-7 text-xs lg:text-sm flex items-center;
 
   &:hover {
     @apply brightness-125;
@@ -49,8 +49,6 @@ p {
 
 .stages-list {
   counter-reset: stages;
-
-
   li:hover {
     &:after {
       @apply text-white;
@@ -66,7 +64,7 @@ p {
 }
 
 .modal-wrapper {
-  @apply fixed inset-0 transition-opacity ease-in-out opacity-0 bg-white-500 bg-opacity-50 z-30 lg:z-10 backdrop-blur flex shadow-sm justify-center items-center;
+  @apply fixed inset-0 transition-opacity ease-in-out opacity-0 bg-white-500 bg-opacity-50 z-30 backdrop-blur flex shadow-sm justify-center items-center;
 
   &.active {
     @apply opacity-100;
@@ -130,4 +128,30 @@ p {
   @media (min-width: 768px) {
     display: flex !important;
   }
+}
+
+.calc-btn {
+  @apply w-5 h-5 lg:w-6 lg:h-6 flex items-center rounded-sm justify-center border-accent border-[2px] border-solid cursor-pointer transition-all ease-in-out;
+
+  &:hover {
+    @apply brightness-125;
+  }
+
+  svg {
+    opacity: 0;
+    transition: 0.3s all ease-in-out;
+    color: #fff;
+  }
+
+  &.active {
+    @apply bg-accent;
+  }
+
+  &.active svg {
+    opacity: 1;
+  }
+}
+
+input {
+  border-radius: 0 !important;
 }

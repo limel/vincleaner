@@ -73,6 +73,7 @@ function SearchForm() {
         </form>
       </div>
       {searchResultList.length > 0 && <SearchResult list={searchResultList} />}
+      {/* <SearchResult list={searchResultList} /> */}
     </section>
   );
 }
