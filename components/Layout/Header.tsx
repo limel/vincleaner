@@ -143,7 +143,7 @@ function Header() {
           </div>
         </div>
         <Modal selector="modal" openModal={openModal} setOpenModal={setOpenModal}>
-          <CallbackForm t={tCallbackForm} vin={true} />
+          <CallbackForm t={tCallbackForm} vin={true} setCloseModal={setOpenModal} />
         </Modal>
       </header>
       {isMobile && (
