@@ -1,160 +1,176 @@
 {
   "Header": {
     "navigation": {
-      "about": "O firmie",
-      "stages": "Jak pracujemy",
-      "search": "Szukaj według VIN"
+      "about": "Informacje o firmie",
+      "stages": "Proces pracy",
+      "search": "Wyszukiwanie według numeru VIN"
     }
   },
   "Hero": {
-    "title": "USUNIĘCIE HISTORII TWOJEGO SAMOCHODU Z ZASOBÓW INTERNETOWYCH",
-    "subtitle": "Kompleksowe usuwanie zdjęć i informacji o samochodzie z wyszukiwarek i stron internetowych.",
+    "title": "Usuwanie informacji o samochodzie z internetu",
+    "subtitle": "Pełne usunięcie historii samochodu i jego zdjęć z wyszukiwarek i witryn internetowych.",
     "experiance": {
-      "title": "Naprawdę",
-      "desc": "Mamy doświadczenie. Większość zamówień jest realizowana tak szybko, jak to możliwe."
+      "title": "Doświadczenie",
+      "desc": "Mamy doświadczenie. Większość zamówień jest realizowana szybko."
     },
     "secure": {
-      "title": "Bezpiecznie",
-      "desc": " Legalnie usuniemy historię numeru VIN i zdjęć samochodu ze stron internetowych i sekcji wyników wyszukiwania Google „Grafika”."
+      "title": "Bezpieczeństwo",
+      "desc": "Legalnie usuwamy historię numeru VIN i zdjęcia samochodu z witryn i wyników wyszukiwania Google."
     },
     "garanty": {
-      "title": "Na zawsze.",
-      "desc": "Trwałe usunięcie informacji o witrynie."
+      "title": "Gwarancja",
+      "desc": "Informacje o numerze VIN są nieodwracalnie usuwane z zasobów internetowych."
     },
-    "button": "Uzyskaj bezpłatną konsultację"
+    "button": "Otrzymaj darmową konsultację"
   },
   "About": {
-    "title": "Witamy w VIN CLEANER",
-    "description": "Pomagamy właścicielom pojazdów zakupionych na aukcjach ubezpieczeniowych Copart, IAAI, Manheim i Impact Auto usunąć historię pojazdu z zasobów internetowych, która wpływa na reputację, sprzedaż i inne aspekty życia. Ochrona Twoich danych osobowych to nasz najwyższy priorytet!",
+    "title": "Witaj w Autoclean",
+    "description": "Pomagamy właścicielom samochodów kupionych na aukcjach ubezpieczeniowych Copart, IAAI, Manheim i Impact Auto usunąć informacje o samochodzie z Internetu, co wpływa na reputację, sprzedaż i inne aspekty życia. Ochrona Twoich danych osobowych jest naszym głównym celem!",
     "title2": "Jak legalnie usunąć historię samochodu z USA?",
-    "description2":"Jeśli jesteś właścicielem amerykańskim samochodu i chcesz wyczyścić historię samochodu i usunąć zdjęcia z Google, pierwszym krokiem jest skontaktowanie się z zaufaną firmą, która świadczy usługę czyszczenia historii VIN. Serwis VINCLEANER od ponad 4 lat usuwa historię samochodu po kodu VIN z Internetu. W naszej pracy stosujemy wyłącznie legalne metody! Bogate doświadczenie w zakresie przeprowadzek internetowych pomaga nam rozwiązywać najtrudniejsze zadania i usuwać najbardziej skomplikowane strony.",
-    "title3": "Jak usunąć historię Vin?",
-    "description3": "Korzystając z usługi VIN CLEANER, możesz przeanalizować, które witryny zawierają zdjęcia Twojego samochodu, kod VIN, informacje o przebiegu, cenie partii itp. Nasza strona posiada automatyczny kalkulator do obliczania kosztów i warunków procesu clean vin usa. Możemy usunąć historię vin ze wszystkich witryn jednocześnie lub wybiórczo na Twoje życzenie.",
-    "description4": "Gwarantujemy poufność. Pomożemy Ci rozpocząć życie Twojego samochodu od podstaw."
+    "description2": "Jeśli jesteś właścicielem samochodu z USA i chcesz wyczyścić jego historię i usunąć zdjęcia z Google, pierwszym krokiem jest skontaktowanie się z sprawdzoną firmą świadczącą usługi usuwania historii numeru VIN. Firma Autoclean.com.ua zajmuje się usuwaniem historii samochodu po numerze VIN z Internetu od ponad 4 lat. Stosujemy tylko legalne metody! Nasze bogate doświadczenie w usuwaniu informacji z sieci pozwala nam rozwiązywać najtrudniejsze zadania i usuwać informacje z najbardziej znanych stron internetowych.",
+    "title3": "Jak przebiega proces usuwania historii samochodu po numerze VIN?",
+    "description3": "Dzięki naszej usłudze VIN Cleaner możesz określić, na których konkretnych stronach internetowych znajdują się informacje o Twoim samochodzie: numer VIN, zdjęcia, dane o przebiegu, cena aukcji itp. Na naszej stronie jest automatyczna kalkulatorka do obliczania kosztów i terminów usuwania. Możemy usunąć informacje o wypadkach drogowych jednocześnie ze wszystkich stron lub selektywnie według Twojego żądania.",
+    "description4": "Gwarantujemy poufność i pomożemy Twojemu samochodowi zacząć nowe życie od zera."
   },
   "Stages": {
-    "title": "ETAPY PRACY",
-    "register": "Zarejestruj się na stronie lub zostaw prośbę",
-    "managers": "Nasz manager skontaktuje się z Tobą i doprecyzuje szczegóły",
-    "payment": "Po pełnej płatności zrealizujemy Twoje zamówienie",
-    "result": "Po 100% realizacji zamówienia otrzymasz raport"
+    "title": "Etapy pracy",
+    "register": "Rejestracja na stronie lub złożenie zgłoszenia",
+    "managers": "Nasi menedżerowie skontaktują się z Tobą, aby wyjaśnić szczegóły",
+    "payment": "Po dokonaniu pełnej płatności przystępujemy do realizacji zamówienia",
+    "result": "Po pełnym wykonaniu zamówienia otrzymasz raport"
   },
   "CTA": {
-    "title": "ZOSTAW PROŚBĘ, A BĘDZIEMY CHRONIĆ PRYWATNOŚĆ TWOJEGO SAMOCHODU",
-    "button": "Prześlij swoją aplikację"
+    "title": "Zostaw zgłoszenie, a zapewnimy poufność Twojego samochodu",
+    "button": "Zostaw zgłoszenie"
   },
   "RequestForm": {
-    "title": "Написать нам",
-    "namePlaceholder": "Введите ваше имя",
-    "messangersCaption": "Какой мессенджер вам удобен для связи?",
-    "messagePlaceholder": "Введите ваше сообщение",
-    "button": "Отправить заявку"
+    "title": "Napisz do nas",
+    "namePlaceholder": "Wpisz swoje imię",
+    "messangersCaption": "Wybierz wygodny dla Ciebie komunikator",
+    "messagePlaceholder": "Wpisz swoją wiadomość",
+    "button": "Wyślij zgłoszenie"
   },
   "CallbackForm": {
-    "title": "ЗАЯВКА НА УДАЛЕНИЕ ИСТОРИИ АВТО",
-    "namePlaceholder": "Введите ваше имя",
-    "messangersCaption": "Какой мессенджер вам удобен для связи?",
-    "vinPlaceholder": "Введите VIN номер авто",
-    "messagePlaceholder": "Введите ваше сообщение",
-    "button": "Отправить заявку"
+    "title": "Zgłoszenie usunięcia historii samochodu",
+    "namePlaceholder": "Wpisz swoje imię",
+    "messangersCaption": "Wybierz wygodny dla Ciebie komunikator",
+    "vinPlaceholder": "Wpisz numer VIN samochodu",
+    "messagePlaceholder": "Wpisz swoją wiadomość",
+    "button": "Wyślij zgłoszenie"
   },
   "Footer": {
     "information": {
-      "title": "Информация",
-      "catalog": {
-      },
+      "title": "Informacje",
+      "catalog": {},
       "faq": {
-        "title": "Вопрос ответ",
+        "title": "Najczęściej zadawane pytania",
         "url": "#"
       },
       "about": {
-        "title": "О компании",
-        "url":"#about"
+        "title": "O firmie",
+        "url": "#about"
       },
       "policy": {
-        "title": "Политика конфиденциальности",
+        "title": "Polityka prywatności",
         "url": "#"
       },
       "terms": {
-        "title": "Договор оферты",
+        "title": "Warunki świadczenia usług",
         "url": "#"
       }
     },
     "contacts": {
-      "title": "Связаться с нами",
-      "socialCaption": "Мы в мессенджерах",
-      "button": "Написать нам"
+      "title": "Skontaktuj się z nami",
+      "socialCaption": "Jesteśmy dostępni przez komunikatory",
+      "button": "Napisz do nas"
     },
     "payments": {
-      "title": "Способы оплаты",
-      "cardsCaption": "Кредитные карты",
-      "cryptoCaption": "Криптовалюты"
-    }
+      "title": "Formy płatności",
+      "cardsCaption": "Karty kredytowe",
+      "cryptoCaption": "Kryptowaluty"
+    },
+    "rights": "Wszelkie prawa zastrzeżone © VIN CLEANER 2019 -",
+    "coporatLots": "Archiwum COPART: 9 185 230 pozycji",
+    "iaaiLots": "Archiwum IAAI: 8 498 453 pozycje"
   },
-  "ValidationSchema" : {
-    "required": "This Field is required",
-    "minValue": "This Field must contain at least 2 characters"
+  "ValidationSchema": {
+    "required": "To pole jest wymagane",
+    "minValue": "To pole musi zawierać co najmniej 2 znaki"
   },
-  "SearchResult" : {
+  "SearchForm": {
+    "title": "Wyszukiwanie samochodu po numerze VIN na stronach i w Google",
+    "subtitle": "Otrzymaj pełną listę wszystkich stron, na których znajdują się informacje o Twoim samochodzie, a także dowiedz się, ile kosztuje ich usunięcie.",
+    "submitSearch": "Szukaj"
+  },
+  "SearchResult": {
     "plc": {
-      "price": "",
-      "deadline": "1-3 days"
+      "price": "od 100 $",
+      "deadline": "1-3 dni"
     },
     "bidfaxEn": {
-      "price": "from 100$",
-      "deadline": "1-3 days"
+      "price": "od 100 $",
+      "deadline": "1-3 dni"
     },
     "ucars": {
-      "price": "from 100$",
-      "deadline": "1-3 days"
+      "price": "od 100 $",
+      "deadline": "1-3 dni"
     },
     "carfast": {
-      "price": "from 100$",
-      "deadline": "1-3 days"
+      "price": "od 100 $",
+      "deadline": "1-3 dni"
     },
     "bidfax": {
-      "price": "from 100$",
-      "deadline": "1-3 days"
+      "price": "od 100 $",
+      "deadline": "1-3 dni"
     },
     "autoRia": {
-      "price": "from 100$",
-      "deadline": "1-3 days"
+      "price": "od 100 $",
+      "deadline": "1-3 dni"
     },
     "autobidmaster": {
-      "price": "from 100$",
-      "deadline": "1-3 days"
+      "price": "od 100 $",
+      "deadline": "1-3 dni"
     },
     "vincleaner": {
-      "price": "from 100$",
-      "deadline": "1-3 days"
+      "price": "od 100 $",
+      "deadline": "1-3 dni"
     },
     "autohistory": {
-      "price": "from 100$",
-      "deadline": "1-3 days"
+      "price": "od 100 $",
+      "deadline": "1-3 dni"
     },
     "americamotors": {
-      "price": "from 100$",
-      "deadline": "1-3 days"
+      "price": "od 100 $",
+      "deadline": "1-3 dni"
+    },
+    "carsimulcast": {
+      "price": "od 100 $",
+      "deadline": "1-3 dni"
     },
     "bidCars": {
-      "price": "from 100$",
-      "deadline": "1-3 days"
+      "price": "od 100 $",
+      "deadline": "1-3 dni"
     },
     "auctionauto": {
-      "price": "from 100$",
-      "deadline": "1-3 days"
+      "price": "od 100 $",
+      "deadline": "1-3 dni"
     },
     "vinspy": {
-      "price": "from 100$",
-      "deadline": "1-3 days"
+      "price": "od 100 $",
+      "deadline": "1-3 dni"
     },
     "autoastat": {
-      "price": "from 100$",
-      "deadline": "1-3 days"
+      "price": "od 100 $",
+      "deadline": "1-3 dni"
+    },
+    "autozona": {
+      "price": "od 100 $",
+      "deadline": "1-3 dni"
     },
     "carcheck": {
-      "price": "from 100$",
-      "deadline": "1-3 days"
-    }
+      "price": "od 100 $",
+      "deadline": "1-3 dni"
+    },
+    "button": "Zostaw zgłoszenie"
   }
 }

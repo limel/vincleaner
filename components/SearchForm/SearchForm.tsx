@@ -42,42 +42,39 @@ function SearchForm() {
         // rightContainerRef.current.style.paddingRight = containerPadding;
       }
     }
-
     handleIndents();
 
     window.addEventListener("resize", handleIndents);
-
     return () => {
       window.removeEventListener("resize", handleIndents);
     };
   }, [leftContainerRef, rightContainerRef]);
 
   return (
-    <>
-      <div className="flex lg:flex-row items-stretch border-solid border-y-2 border-accent">
-        <div className=" bg-accent text-white w-1/2 py-16 pr-16" ref={leftContainerRef}>
-          <h2 className="mb-5">ПОИСК АВТОМОБИЛЯ ПО VIN НА САЙТАХ И В GOOGLE</h2>
+    <section id="vinSearch">
+      <div className="flex flex-col lg:flex-row items-stretch lg:border-solid lg:border-y-2 lg:border-accent">
+        <div className=" bg-accent text-white lg:w-1/2 py-16 pr-16" ref={leftContainerRef}>
+          <h2 className="mb-5">{t("title")}</h2>
           <p className="before:h-full before:w-[2px] before:bg-white pl-3 relative before:left-0 top-0 before:absolute">
-            Получите полный список всех сайтов, на которых размещен ваш автомобиль, а также детальную стоимость услуг за
-            удаление.
+            {t("subtitle")}
           </p>
         </div>
         <form
           ref={rightContainerRef}
-          className="flex flex-row w-1/2 h-fit mt-auto mb-auto pl-6"
+          className="flex flex-row lg:w-1/2 h-fit mb-auto pl-6 mt-5 lg:mt-auto  "
           onSubmit={(e) => {
             handleSubmit(e);
           }}
         >
           <input type="text" placeholder="Ввидите VIN номер" required name="search-string" className="input !mb-0" />
-          <button type="submit" className="button">
+          <button type="submit" className="button min-w-[120px]">
             {t("submitSearch")}
           </button>
         </form>
       </div>
-      {searchResultList.length > 0 && <SearchResult list={searchResultList} />}
-      {/* <SearchResult list={searchResultList} /> */}
-    </>
+      {/* {searchResultList.length > 0 && <SearchResult list={searchResultList} />} */}
+      <SearchResult list={searchResultList} />
+    </section>
   );
 }
 

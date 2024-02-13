@@ -7,7 +7,7 @@ function Footer() {
   const year = new Date().getFullYear();
   const t = useTranslations("Footer");
 
-  const infoLinks = ["information.about", "information.faq", "information.policy", "information.terms"] as const;
+  const infoLinks = ["information.about", "information.policy", "information.terms"] as const;
 
   return (
     <footer className="py-5">
@@ -120,10 +120,10 @@ function Footer() {
               <use href="/sprite.svg#file" />
             </svg>
             <div className="text-xs">
-              <span className="block">COPART архив:</span>
-              <span>
+              <span className="block">{t("coporatLots")}</span>
+              {/* <span>
                 <strong>9,185,230</strong> лотов
-              </span>
+              </span> */}
             </div>
           </li>
           <li className="flex items-center gap-2 ">
@@ -132,14 +132,16 @@ function Footer() {
               <use href="/sprite.svg#file" />
             </svg>
             <div className="text-xs">
-              <span>COPART архив:</span>
-              <span className="block">
+              <span>{t("iaaiLots")}</span>
+              {/* <span className="block">
                 <strong>9,185,230</strong> лотов
-              </span>
+              </span> */}
             </div>
           </li>
         </ul>
-        <span className="text-xs">Все права защищены © VIN CLEANER 2019 - {year}</span>
+        <span className="text-xs">
+          {t("rights")} {year}
+        </span>
       </div>
     </footer>
   );

@@ -1,160 +1,176 @@
 {
   "Header": {
     "navigation": {
-      "about": "About us",
-      "stages": "How we work",
-      "search": "Search by VIN"
+      "about": "About Us",
+      "stages": "Process",
+      "search": "VIN Search"
     }
   },
   "Hero": {
-    "title": "REMOVING THE HISTORY OF YOUR CAR FROM INTERNET RESOURCES",
-    "subtitle": "Comprehensive removal of car history and photos from search engines and sites.",
+    "title": "Removing Car Information from the Internet",
+    "subtitle": "Complete removal of car history and its photos from search engines and websites.",
     "experiance": {
-      "title": "Really",
-      "desc": "We have experience. Most orders are completed as soon as possible."
+      "title": "Experience",
+      "desc": "We have experience. Most orders are executed promptly."
     },
     "secure": {
-      "title": "Safely",
-      "desc": "We will legally clear VIN history and car photos from websites and Google search in the \"images\" section."
+      "title": "Security",
+      "desc": "We legally clean the VIN history and car photos from websites and Google search results."
     },
     "garanty": {
-      "title": "Forever",
-      "desc": "Permanent vin history deletion from site."
+      "title": "Guarantee",
+      "desc": "VIN information is permanently removed from web resources."
     },
-    "button": "Get a free consultation"
+    "button": "Get Free Consultation"
   },
   "About": {
-    "title": "Welcome to VIN CLEANER",
-    "description": "We help owners of vehicles purchased at Copart, IAAI, Manheim and Impact Auto insurance auctions remove vehicle history from online resources that affects reputation, sales and other aspects of life. Protecting your personal data is our top priority!",
-    "title2": "How to delete car history legally?",
-    "description2":"If you are an American car owner and want to remove car history and delete car photos from Google, the first step is to contact a trusted company that provides a vin cleaning service. Service VINCLEANER has been clearing car history by VIN code from the Internet for more than 4 years. In our work, we use only legal methods! Extensive experience in the field of VIN removal helps us to solve the most difficult tasks and remove complex sites.",
-    "title3": "How to remove vin number from google?",
-    "description3": "Using the VIN CLEANER service, you can analyze which sites have photos of your car, VIN code, mileage information, lot price, etc. Our site has an automatic calculator for calculating the cost and terms of hide vin process. We can delete vin history from all sites at once or selectively at your request.",
-    "description4": "We guarantee confidentiality. Let us help you get your car started from scratch."
+    "title": "Welcome to Autoclean",
+    "description": "We help owners of cars purchased at insurance auctions such as Copart, IAAI, Manheim, and Impact Auto, to remove car information from the internet, which affects reputation, sales, and other aspects of life. Protecting your personal data is our top priority!",
+    "title2": "How to Legally Remove Car History from the US?",
+    "description2": "If you own a car from the US and want to clear its history and remove photos from Google, the first step is to contact a trusted company that provides VIN history removal services. Autoclean.com.ua has been removing car history based on VIN for over 4 years. We use only legal methods! Our extensive experience in removing information from the internet allows us to solve the most complex tasks and delete information from the most popular sites.",
+    "title3": "How Does the Process of Removing Car History by VIN Work?",
+    "description3": "With our VIN Cleaner service, you can determine which sites contain information about your car: VIN, photos, mileage, auction price, etc. Our website has an automatic calculator to estimate the cost and time of removal. We can remove accident history from all sites at once or selectively upon your request.",
+    "description4": "We guarantee confidentiality and help your car start a new life with a clean slate."
   },
   "Stages": {
-    "title": "STAGES OF WORK",
-    "register": "Register on the site or leave a request",
-    "managers": "Our manager will contact you and clarify the details",
-    "payment": "After full payment, we fulfill your order",
-    "result": "After 100% completion of the order, you will receive a report"
+    "title": "Work Stages",
+    "register": "Register on the website or submit an application",
+    "managers": "Our managers contact you to clarify details",
+    "payment": "After payment, we start processing your order",
+    "result": "After completing the order, you receive a report"
   },
   "CTA": {
-    "title": "LEAVE A REQUEST AND WE WILL PROTECT THE PRIVACY OF YOUR CAR",
-    "button": "Leave a request"
+    "title": "Leave a Request and We Will Ensure the Confidentiality of Your Car",
+    "button": "Leave Request"
   },
   "RequestForm": {
-    "title": "Написать нам",
-    "namePlaceholder": "Введите ваше имя",
-    "messangersCaption": "Какой мессенджер вам удобен для связи?",
-    "messagePlaceholder": "Введите ваше сообщение",
-    "button": "Отправить заявку"
+    "title": "Contact Us",
+    "namePlaceholder": "Enter your name",
+    "messangersCaption": "Choose a messenger convenient for you",
+    "messagePlaceholder": "Enter your message",
+    "button": "Send Request"
   },
   "CallbackForm": {
-    "title": "ЗАЯВКА НА УДАЛЕНИЕ ИСТОРИИ АВТО",
-    "namePlaceholder": "Введите ваше имя",
-    "messangersCaption": "Какой мессенджер вам удобен для связи?",
-    "vinPlaceholder": "Введите VIN номер авто",
-    "messagePlaceholder": "Введите ваше сообщение",
-    "button": "Отправить заявку"
+    "title": "Car History Removal Request",
+    "namePlaceholder": "Enter your name",
+    "messangersCaption": "Choose a messenger convenient for you",
+    "vinPlaceholder": "Enter the car's VIN number",
+    "messagePlaceholder": "Enter your message",
+    "button": "Send Request"
   },
   "Footer": {
     "information": {
-      "title": "Информация",
-      "catalog": {
-      },
+      "title": "Information",
+      "catalog": {},
       "faq": {
-        "title": "Вопрос ответ",
+        "title": "FAQ",
         "url": "#"
       },
       "about": {
-        "title": "О компании",
-        "url":"#about"
+        "title": "About Us",
+        "url": "#about"
       },
       "policy": {
-        "title": "Политика конфиденциальности",
+        "title": "Privacy Policy",
         "url": "#"
       },
       "terms": {
-        "title": "Договор оферты",
+        "title": "Terms of Service",
         "url": "#"
       }
     },
     "contacts": {
-      "title": "Связаться с нами",
-      "socialCaption": "Мы в мессенджерах",
-      "button": "Написать нам"
+      "title": "Contact Us",
+      "socialCaption": "Reach us via messengers",
+      "button": "Write to Us"
     },
     "payments": {
-      "title": "Способы оплаты",
-      "cardsCaption": "Кредитные карты",
-      "cryptoCaption": "Криптовалюты"
-    }
+      "title": "Payment Methods",
+      "cardsCaption": "Credit Cards",
+      "cryptoCaption": "Cryptocurrencies"
+    },
+    "rights": "All rights reserved © VIN CLEANER 2019 -",
+    "coporatLots": "COPART archive: 9,185,230 lots",
+    "iaaiLots": "IAAI archive: 8,498,453 lots"
   },
-  "ValidationSchema" : {
-    "required": "This Field is required",
-    "minValue": "This Field must contain at least 2 characters"
+  "ValidationSchema": {
+    "required": "This field is required",
+    "minValue": "This field must contain at least 2 characters"
   },
-  "SearchResult" : {
+  "SearchForm": {
+    "title": "Search for Car by VIN on Websites and Google",
+    "subtitle": "Get a full list of all websites where information about your car is posted, as well as find out the cost of services for its removal.",
+    "submitSearch": "Search"
+  },
+  "SearchResult": {
     "plc": {
-      "price": "",
+      "price": "from $100",
       "deadline": "1-3 days"
     },
     "bidfaxEn": {
-      "price": "from 100$",
+      "price": "from $100",
       "deadline": "1-3 days"
     },
     "ucars": {
-      "price": "from 100$",
+      "price": "from $100",
       "deadline": "1-3 days"
     },
     "carfast": {
-      "price": "from 100$",
+      "price": "from $100",
       "deadline": "1-3 days"
     },
     "bidfax": {
-      "price": "from 100$",
+      "price": "from $100",
       "deadline": "1-3 days"
     },
     "autoRia": {
-      "price": "from 100$",
+      "price": "from $100",
       "deadline": "1-3 days"
     },
     "autobidmaster": {
-      "price": "from 100$",
+      "price": "from $100",
       "deadline": "1-3 days"
     },
     "vincleaner": {
-      "price": "from 100$",
+      "price": "from $100",
       "deadline": "1-3 days"
     },
     "autohistory": {
-      "price": "from 100$",
+      "price": "from $100",
       "deadline": "1-3 days"
     },
     "americamotors": {
-      "price": "from 100$",
+      "price": "from $100",
+      "deadline": "1-3 days"
+    },
+    "carsimulcast": {
+      "price": "from $100",
       "deadline": "1-3 days"
     },
     "bidCars": {
-      "price": "from 100$",
+      "price": "from $100",
       "deadline": "1-3 days"
     },
     "auctionauto": {
-      "price": "from 100$",
+      "price": "from $100",
       "deadline": "1-3 days"
     },
     "vinspy": {
-      "price": "from 100$",
+      "price": "from $100",
       "deadline": "1-3 days"
     },
     "autoastat": {
-      "price": "from 100$",
+      "price": "from $100",
+      "deadline": "1-3 days"
+    },
+    "autozona": {
+      "price": "from $100",
       "deadline": "1-3 days"
     },
     "carcheck": {
-      "price": "from 100$",
+      "price": "from $100",
       "deadline": "1-3 days"
-    }
+    },
+    "button": "Leave Request"
   }
 }

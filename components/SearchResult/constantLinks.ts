@@ -50,6 +50,11 @@ export const constantLinks = [
     href: "https://americamotors.com/",
   },
   {
+    title: "auctions.carsimulcast.com",
+    shortTitle: "carsimulcast",
+    href: "https://auctions.carsimulcast.com/",
+  },
+  {
     title: "bid.cars",
     shortTitle: "bidCars",
     href: "https://bid.cars/",
@@ -59,6 +64,7 @@ export const constantLinks = [
     shortTitle: "auctionauto",
     href: "https://auctionauto.fr/",
   },
+
   {
     title: "vinspy.eu",
     shortTitle: "vinspy",
