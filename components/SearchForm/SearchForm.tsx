@@ -72,8 +72,7 @@ function SearchForm() {
           </button>
         </form>
       </div>
-      {/* {searchResultList.length > 0 && <SearchResult list={searchResultList} />} */}
-      <SearchResult list={searchResultList} />
+      {searchResultList.length > 0 && <SearchResult list={searchResultList} />}
     </section>
   );
 }
