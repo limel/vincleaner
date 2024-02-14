@@ -137,7 +137,9 @@ function Header() {
         <div className="container">
           <div className="max-w-[1152px] flex items-center justify-between">
             <Link href="/">
-              <span className="uppercase font-bold text-3xl">logo</span>
+              <svg className="w-[80px] h-[50px] uppercase font-bold text-3xl">
+                <use href="/sprite.svg#logo" />
+              </svg>
             </Link>
             {isMobile ? mobileMenu : descktopMenu}
           </div>
